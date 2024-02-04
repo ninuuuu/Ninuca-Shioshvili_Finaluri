@@ -1,0 +1,107 @@
+body {
+    background-color: #000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: rgb(8, 253, 0);
+    padding: 1rem;
+    border-bottom: 2px solid #1eff00;
+}
+.logo {
+    font-size: 1.5rem;
+    color: #33ff00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li.active {
+    color: #51ff00;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#portfolio {
+    background-color: #000000;
+    color: #fff;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#portfolio .project {
+    text-align: center;
+}
+
+#portfolio .project img {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 3px;
+    height: 3px;
+    margin: 0 0.5rem;
+    filter: grayscale(100%);
+}
+
+#about, #contact {
+    padding: 2rem;
+    background-color: #000000;
+    color: #fff;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+    color: #1eff00;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #2bff00;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #48ff00;
+}
+h3 {
+    color: #1eff00;
+}
+p {
+    color:#1eff00
+}
+
+h2 {
+        color: #1eff00;}
